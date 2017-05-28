@@ -46,7 +46,7 @@ public class SimpleEspressoTest {
 
         onView(withId(R.id.button)).perform(click());// click
 
-        onView(withId(R.id.textview)).check(matches(withText(textToFind1)));//
+        onView(withId(R.id.textview)).check(matches(withText(textToFind1)));//match "strong"
     }
 
 }
