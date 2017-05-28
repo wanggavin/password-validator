@@ -10,7 +10,7 @@ import android.support.annotation.RequiresApi;
 import java.util.Scanner;
 
 public class mainFunc {
-   public static void main(String[] args){
+   /*public static void main(String[] args){
         @SuppressWarnings("resource")
         Scanner keyboard = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class mainFunc {
             System.out.println("not strong");
             System.exit(0);
         }
-    }
+    }*/
 
 
     public static boolean isStrong(String pwd){
